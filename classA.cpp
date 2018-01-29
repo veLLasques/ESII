@@ -57,3 +57,31 @@ void A::setAprinc4(string _Aprinc4) {
 string A::getAprinc4() {
 	return Aprinc4;
 }
+
+class B
+{
+	int B1;		// atributo int
+	float B2;	// atributo float
+	
+public:
+	void setA1(int _A1);
+	void setA2(float _A2);
+	int getA1();
+	float getA2();
+};
+
+void B::setB1(int _B1) {
+	B1 = _B1;
+}
+
+void B::setB2(float _B2) {
+	B2 = _B2;
+}
+
+int B::getB1() {
+	return B1;
+}
+
+float B::getB2() {
+	return B2;
+}
